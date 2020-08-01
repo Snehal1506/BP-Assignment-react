@@ -12,12 +12,12 @@ class Home extends React.Component {
         return (
             < div >
                 <div class="main">
-                    <div> <h1> Spotify</h1></div>
+                    <div> <h1> Welcome to Music!!</h1></div>
                 </div>
 
                 
                 <div id="root"><CardProfile /></div>
-                <div> <button className="btn" onClick={this.logout}><h3>Logout</h3></button></div>
+                <div> <button className="btn1" onClick={this.logout}><h3>Logout</h3></button></div>
 
 
                 <a target="_blank" title="instagram/web__addict" href="https://www.instagram.com/web__addict/"><i class="fab fa-instagram"></i></a>
